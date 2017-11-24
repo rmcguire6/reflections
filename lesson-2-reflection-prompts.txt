@@ -1,0 +1,20 @@
+What happens when you initialize a repository? Why do you need to do it?
+The .git folder gets added to the repository so that git commands can be properly executed.
+How is the staging area different from the working directory and the repository?
+What value do you think it offers?
+It gives you a place to put files you intend to commit but maybe haven't finished working on.
+But the fact that they are being tracked helps you to stay focused.
+
+How can you use the staging area to make sure you have one commit per logical
+change?
+
+What are some situations when branches would be helpful in keeping your history
+organized? How would branches help?
+
+How do the diagrams help you visualize the branch structure?
+
+What is the result of merging two branches together? Why do we represent it in
+the diagram the way we do?
+
+What are the pros and cons of Git's automatic merging vs. always doing merges
+manually?

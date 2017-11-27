@@ -7,14 +7,25 @@ But the fact that they are being tracked helps you to stay focused.
 
 How can you use the staging area to make sure you have one commit per logical
 change?
+When you have finished working on one file but the logical change requires changes
+to more than one file, the staging area lets you "store" your work while you make
+the other changes that are required.
 
 What are some situations when branches would be helpful in keeping your history
 organized? How would branches help?
+Branches are useful when you want to collaborate with someone. They are also useful
+for experimental changes or different language  or feature versions.
 
 How do the diagrams help you visualize the branch structure?
+They give you a visual representation of which commits are on which branch and it
+makes it much easier to see if there are any unreachable commits.
 
 What is the result of merging two branches together? Why do we represent it in
 the diagram the way we do?
-
+You get the two branches on one branch with the commits arranged by time stamp.
+It is represented that way in the diagram because after you make a merge commit
+the two brances are the same.
 What are the pros and cons of Git's automatic merging vs. always doing merges
 manually?
+When you manually merge you have complete control over what you commit. When Git
+automatically merges it does both the merge and the message.

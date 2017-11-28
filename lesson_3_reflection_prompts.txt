@@ -34,4 +34,6 @@ and what would be harder?
 When would you want to make changes in a separate branch rather than directly in
 master?  What benefits does each approach have?
 
-    Fill in your answer here
+   I recently read an article on Medium, How to not f- up your local files with Git part 1, by Francesco Agnoletto,
+   where he discusses the use of branches to help keep master in a safe and production ready state. If we use master to
+   develop on we do not have a production ready branch. If you are only messing around on your own maybe this is not     neccessary.

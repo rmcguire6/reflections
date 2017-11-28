@@ -14,13 +14,14 @@ Describe the differences between forks, clones, and branches.  When would you
 use one instead of another?
 
     You fork a repository when you do not have permission to modify it. You clone a repository
-    to have a copy in a different place, either remotely or one another computer. You create a branch in 
+    to have a copy in a different place, either remotely or on another computer. You create a branch in 
     a repository when you want to have a fresh copy and still have the original branch.
 
 What is the benefit of having a copy of the last known state of the remote
 stored locally?
 
-    Fill in your answer here
+    It gives you the opportunity to use examine the differences between the local code and the 
+    remote code without neccessarily being in touch with the remote repository.
 
 How would you collaborate without using Git or GitHub?  What would be easier,
 and what would be harder?
